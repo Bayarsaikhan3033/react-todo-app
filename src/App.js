@@ -1,9 +1,9 @@
 import React from 'react';
+import { Header } from './components/layout/header';
 
-export const App = () =>(
-  <div className="App">
-    <header className="App-header">
-      <p>Love you Undrax</p>
-    </header>
+export const App = () => (
+  <div className="app">
+    <Header></Header>
+    <div className="main-content"><p>Main body</p></div>
   </div>
 );
